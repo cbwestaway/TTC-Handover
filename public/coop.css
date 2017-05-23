@@ -1,0 +1,140 @@
+
+button{
+font-weight: 400;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+text-align: center;
+margin: 55px;
+background-color: #cbcfd6; 
+}
+button:Hover{
+font-weight: 700;
+color: white;
+background-color: #3e79a3;
+}
+
+#looimg{
+z-index: -1;
+margin: 0 auto;
+}
+
+
+.row{
+padding-top: 20px;
+}
+
+
+body{
+background-color: #232323;
+/*
+background-image: url("http://www.tutoring-beyond-borders.com/wp-content/uploads/photo-gallery/UniversityOfWaterloo_logo_vert_rev_rgb-e1432949975732-300x148.png");
+background-repeat: no-repeat;
+background-position:center;
+margin: 0 auto;
+*/
+}
+
+.navbar{
+color: white;
+background-color: #9BA1A3;
+height: 80px;
+}
+
+.navbar-default .navbar-nav>li>a{
+color: White;
+font-weight: 600;
+}
+#ttcimg{
+height: 50px;
+position: relative;
+bottom: 5px;
+left: 5px;
+}
+
+#ttcimg:hover{
+height: 53px;
+width: 120px;
+}
+
+.dropdown-menu>li>a:hover{
+background-color: #cbcfd6;
+color: white;
+font-weight: 600;
+}
+
+.manuals
+{
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+.commissioning
+{
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+
+.dailies{
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+
+.dailies :hover{
+    visibility: visible;
+}
+
+.dailies h2:active{
+   visibility: visible;
+}
+
+.dailies ol, h3{
+    visibility: visible;
+}
+
+
+.training{
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+.spareparts{
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+
+.landing{
+color: white;
+font-size: 20px;
+font-weight: 500;
+margin: 0 auto;
+}
+
+.taskbuttons form{
+    display: inline;
+}
+.btn{
+    float: right;
+    height: 50px;
+    margin: 10px;
+}
+.btn-lg{
+position: relative;
+bottom: 5px;
+left: 5px;
+margin-left: 150px;
+width: 300px;
+}
+
+.table{
+    color: white;
+}
+.form-group{
+    color: white;
+}
+.training{
+padding-bottom: 5px;
+}

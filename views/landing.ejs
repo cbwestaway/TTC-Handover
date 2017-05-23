@@ -1,0 +1,34 @@
+<% include partials/header %>
+
+<div class="container landing">
+        <% var weather = data.query.results.channel.item.forecast; %>
+        <form action="/tasks" method="GET">
+            <button type="submit" class="btn btn-primary">View Tasks</button>
+        </form>
+        <h1> The forecast for today is: <%= weather[0].text %> </h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>The high is <%= weather[0].high %> degrees</h2>
+            </div>
+            <div class="col-md-6">
+                <h2>The low is <%= weather[0].low %> degrees</h2>
+            </div>
+            <% if (weather[0].day === "Fri"){ %>
+            <h1> The weekend's forecast is: <%= weather[0].text %>  </h1>
+             <div class="row">
+            <div class="col-md-6">
+                <h2>The high for saturday is <%= weather[1].high %> degrees</h2>
+            </div>
+            <div class="col-md-6">
+                <h2>The low for saturday is <%= weather[1].low %> degrees</h2>
+            </div>
+             <div class="row">
+            <div class="col-md-6">
+                <h2>The high is <%= weather[2].high %> degrees</h2>
+            </div>
+            <div class="col-md-6">
+                <h2>The low is <%= weather[2].low %> degrees</h2>
+            </div>
+            <% } %>
+    <% include partials/footer %>
+</div>

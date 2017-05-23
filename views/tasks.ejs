@@ -1,0 +1,37 @@
+<% include partials/header %>
+
+<!-- Buttons -->
+<div class="container">
+    <div class="row taskbuttons">
+        <div class="col-md-2"></div>
+        <div class="col-md-9">
+          <form method="GET" action="/tasks/manuals">
+    	    <button type="submit" href="/tasks/manuals">O&M Manuals</button>
+    	  </form>
+    	  <form method="GET" action="/tasks/training">
+    	    <button type="submit">Training</button>
+    	  </form>
+    	  <form method="GET" action="/tasks/commissioning">
+    	    <button type="submit">Commissioning</button>
+    	  </form
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row taskbuttons">
+       <div class="col-md-2"></div>
+       <div class="col-md-9">
+           <form method="GET" action="/tasks/spareparts">
+    	       <button type="submit">Spare Parts</button>
+    	   </form>
+    	   <form method="GET" action="/tasks/dailies">
+    	       <button type="submit">Daily Progress Reports</button>
+    	   </form>
+    	   <form method="GET" action="/tasks/SharePoint">
+    	       <button type="submit">SharePoint</button>
+    	   </form>
+       </div>
+       <div class="col-md-1"></div>
+    </div>
+</div>
+
+<% include partials/footer %>
